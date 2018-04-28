@@ -22,7 +22,7 @@ gulp.task('vendor', function() {
   
   // Angular
   gulp.src([
-      './node_modules/angular/*.js'
+      './node_modules/angular/*'
     ])
   .pipe(gulp.dest('./vendor/angular'))
 

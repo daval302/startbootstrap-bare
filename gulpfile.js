@@ -19,6 +19,12 @@ gulp.task('vendor', function() {
       '!./node_modules/jquery/dist/core.js'
     ])
     .pipe(gulp.dest('./vendor/jquery'))
+  
+  // Angular
+  gulp.src([
+      './node_modules/angular/*.js'
+    ])
+  .pipe(gulp.dest('./vendor/angular'))
 
 })
 

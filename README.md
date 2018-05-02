@@ -19,7 +19,7 @@ To begin using this template, choose one of the following options to get started
 * install dependencies : `npm install`
 * execute the default gulp task: `gulp default`
 * [Fork, Clone, or Download on GitHub](https://github.com/daval302/startbootstrap-bare-angularjs)
-* [Fork from original author](https://blackrockdigital.github.io/startbootstrap-bare/)
+* [Fork from original author](https://github.com/BlackrockDigital/startbootstrap-bare)
 
 ## Usage
 
@@ -33,4 +33,4 @@ After installation, run `npm install` and then run `gulp dev` which will open up
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://daval302.github.io/startbootstrap-bare-angularjs/issues) here on GitHub.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/daval302/startbootstrap-bare-angularjs/issues)) here on GitHub.

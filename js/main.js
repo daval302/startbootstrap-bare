@@ -15,6 +15,14 @@ app.controller('main', function($scope){
 		dependencies: ['Bootstrap 4.0.0', 'jQuery 3.3.0', 'Angular 1.6.10']
 	}
 
+	$scope.select = function(key_item){
+		for (key in $scope.navigator)
+			if ($scope.navigator[key] == 'active')
+				$scope.navigator[key] = null;
+		// select the element
+		$scope.navigator[key_item] = 'active';
+	}
+
 
 }).directive('navigator',function(){
 	return {templateUrl: 'pages/navigator.html'}

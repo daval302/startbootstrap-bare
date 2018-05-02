@@ -16,6 +16,8 @@ The template has already the `main` angularjs controller and two angular templat
 To begin using this template, choose one of the following options to get started:
 
 * Clone the repo: `git clone https://github.com/daval302/startbootstrap-bare-angularjs.git`
+* install dependencies : `npm install`
+* execute the default gulp task: `gulp default`
 * [Fork, Clone, or Download on GitHub](https://github.com/daval302/startbootstrap-bare-angularjs)
 * [Fork from original author](https://blackrockdigital.github.io/startbootstrap-bare/)
 

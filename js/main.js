@@ -1,7 +1,9 @@
 var app = angular.module('bare', []);
 
 app.controller('main', function($scope){
-	$scope.me = "daval302";
+	
+	$scope.navigator = {'Home': 'active', 'About': null, 'Services': null, 'Contact': null};
+
 }).directive('navigator',function(){
 	return {templateUrl: 'pages/navigator.html'}
 }).directive('content',function(){
